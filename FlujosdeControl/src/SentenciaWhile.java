@@ -6,5 +6,19 @@ public class SentenciaWhile {
             System.out.println("i: " + i);
             i++;
         }
+
+        boolean prueba= true;
+
+        while (prueba){
+            if(i == 7){
+                prueba = false;
+            }
+            System.out.println("i = " + i);
+            i++;
+        }
+        prueba=false;
+        do{
+            System.out.println("se ejecuta al menos una vez");
+        }while (prueba);
     }
 }
